@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    text-align: center; /* Ensures text is centered */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: "Prosto One";
+    color: #FF4500;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0;
+    color: #234bdb;
+    font-family: "Varela Round";
+    font-size: medium;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+footer, h6 {
+    font-family: "Cute Font";
+    color: #FFB618;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+nav a {
+    font-family: "Syne Mono";
+    color: #27b866;
+    padding-top: 5px;
+    text-decoration: none; /* Remove underline */
+}
+
+nav a:hover {
+    color: #D0E22A;
+}
