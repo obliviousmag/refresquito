@@ -102,6 +102,7 @@ body {
     font-size: 20px;
     padding-inline: 10px;
     border-radius: 5px;
+    padding-block-end: 10px;
 }
 
 .item img {
@@ -125,10 +126,13 @@ a {
     font-family: "Prosto One";
     color: #FF4500;
     padding-top: 5px;
+    text-decoration: none;
+    transition: letter-spacing 0.3s ease, color 0.3s ease;
 }
 
 a:hover {
     color: #234BDB;
+    letter-spacing: 2px;
 }
 
 h3, p {
